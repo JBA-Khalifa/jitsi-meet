@@ -39,7 +39,7 @@ MiddlewareRegistry.register(store => next => action => {
 function _shareRoom(roomURL: string, { dispatch, getState }) {
     getShareInfoText(getState(), roomURL)
         .then(message => {
-            const title = `${getName()} Conference`;
+            const title = `${getName()} Gathering`;
             const onFulfilled
                 = (shared: boolean) => dispatch(endShareRoom(roomURL, shared));
 
