@@ -59,7 +59,7 @@ PODS:
     - SDWebImage/WebP
   - react-native-keep-awake (4.0.0):
     - React
-  - react-native-webrtc (1.69.0):
+  - react-native-webrtc (1.69.1):
     - React
   - React/Core (0.58.5):
     - yoga (= 0.58.5.React)
